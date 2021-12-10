@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/grad_back_color"
+    android:layout_height="match_parent"
+    tools:context=".Views.Activity.DetailsActivity">
+
+    <LinearLayout
+        android:id="@+id/lin_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#33B3E5FC"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtvbs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hey we sell"
+                android:textColor="@color/textOnlayout"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtvcity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mutare"
+                android:textColor="@color/textOnlayout"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtvname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lloyd"
+                android:textColor="@color/textOnlayout"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtvusername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ltc"
+                android:textColor="@color/textOnlayout"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtvemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ltc@gmail.com"
+                android:textColor="@color/textOnlayout"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtvphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="07745777456"
+                android:textColor="@color/textOnlayout"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/txtvlat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="34.334"
+                android:textColor="@color/textOnlayout"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtvlng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="31.43"
+                android:textColor="@color/textOnlayout"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="110dp"
+            android:background="@android:color/transparent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtvweb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="www.web.com"
+                android:textColor="@color/textOnlayout"
+                android:textSize="16sp" />
+
+
+
+            <TextView
+                android:id="@+id/txtvcompany_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FIGJAM"
+                android:textColor="@color/textOnlayout"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtvcatch_prase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hey come and buy"
+                android:textColor="@color/textOnlayout"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtvstreet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="Mbuya Nehanda"
+                android:textColor="@color/textOnlayout"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtvzipcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="263"
+                android:textColor="@color/textOnlayout"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

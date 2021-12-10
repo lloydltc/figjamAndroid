@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FigJam</string>
+    <string name="desc_fingerprint">Please place your fingertip on the scanner to verify your identity</string>
+    <string name="note">(Fingerprint sign in makes your app login much faster. Your device should have at least one fingerprint registered in device settings)</string>
+    <string name="title_activity_home">Fingerprint</string>
+    <string name="activity_home_desc">You have successfully logged in with fingerprint authentication</string>
+    <string name="activity_home_note">Close and re-open the app to see the fingerprint auth screen again</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="anonymous">Anonymous</string>
+    <string name="sign_in">Sign In</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="deefault_web_client_id">794338966208-gg644ha2g85147p7utjdc50uigj4tsq0.apps.googleusercontent.com</string>
+    <string name="figjam_cardtxt">GET CONNECTED WITH FIGJAM</string>
+</resources>
+
